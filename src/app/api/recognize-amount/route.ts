@@ -4,7 +4,7 @@ import { NextRequest, NextResponse } from "next/server";
 async function processImage(base64Image: string): Promise<number> {
   // 在实际应用中，这里应该调用真实的OCR API服务
   // 例如：Google Cloud Vision API, Azure Computer Vision, Tesseract.js等
-
+  console.log("base64Image", base64Image);
   // 模拟处理延迟
   await new Promise((resolve) => setTimeout(resolve, 1000));
 

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "个人工具集 - 工具",
@@ -15,12 +16,12 @@ export default function ToolsLayout({
       <header className="bg-white dark:bg-gray-800 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex justify-between items-center">
-            <a
+            <Link
               href="/"
               className="text-xl font-bold text-gray-800 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
             >
               个人工具集
-            </a>
+            </Link>
           </div>
         </div>
       </header>
