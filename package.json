@@ -1,0 +1,13 @@
+{
+  "name": "personal-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:web": "cd packages/frontend && pnpm run dev",
+    "start:server": "cd packages/backend && pnpm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
